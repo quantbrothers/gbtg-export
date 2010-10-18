@@ -1,0 +1,16 @@
+GBTGP-38K(M) gps logger export utility
+Version: 1.0.0
+Input file name was not specified
+Command line options:
+  -h [ --help ]                     produce help
+  -f [ --input-files ] arg          input file (*.dat files)
+  -o [ --output_format ] arg (=gpx) output file format, 'csv' or 'gpx', default
+                                    is 'gpx'
+  -F [ --output_file ] arg          output file
+  -R [ --recursive ]                scan for files recursively
+  -s [ --split_track ] arg (=0)     maximum allowed time delay in seconds betwe
+                                    en waypoints, default is infinite. Used to 
+                                    split track to subtracks. 
+Example: 
+  gbtg-export -f *.dat -o gpx -F my_trip.gpx
+
