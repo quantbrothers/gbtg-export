@@ -257,7 +257,7 @@ int main(int argc, char * argv[])
     po::options_description cl_desc("Command line options");
     cl_desc.add_options()
         ("help,h", "produce help")
-        ("input-files,f", po::value< std::vector<std::string> >(), "input file")
+        ("input-files,f", po::value< std::vector<std::string> >(), "input file (*.dat files)")
         ("output_format,o", po::value<std::string>()->default_value("gpx"),
             "output file format, 'csv' or 'gpx', default is 'gpx'")
         ("output_file,F", po::value<std::string>(), "output file")

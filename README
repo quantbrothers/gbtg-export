@@ -1,3 +1,8 @@
+Tool which can be used to convert GBTGP-38K(M) GPS logger .DAT files to .GPX track 
+for futher using in various tagging applications.
+
+
+
 GBTGP-38K(M) gps logger export utility
 Version: 1.0.0
 Input file name was not specified
